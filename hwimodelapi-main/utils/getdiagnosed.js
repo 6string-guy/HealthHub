@@ -3,7 +3,7 @@ import { BedrockRuntimeClient, InvokeModelCommand } from "@aws-sdk/client-bedroc
 
 // Initialize the Bedrock client
 const client = new BedrockRuntimeClient({
-    region: "", // Replace with your AWS region
+    region: "us-east1", // Replace with your AWS region
     credentials: {
         accessKeyId: "",
         secretAccessKey: "" // Replace with your AWS Secret Access Key

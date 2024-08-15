@@ -5,9 +5,9 @@ import {
 
 // Initialize the Bedrock client
 const client = new BedrockRuntimeClient({
-  region: "", // Replace with your AWS region
+  region: "us-east1", // Replace with your AWS region
   credentials: {
-    accessKeyId: "", // Replace with your AWS Access Key ID
+    accessKeyId: "",
     secretAccessKey: "", // Replace with your AWS Secret Access Key
   },
 });
